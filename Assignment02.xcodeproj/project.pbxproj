@@ -8,24 +8,31 @@
 
 /* Begin PBXBuildFile section */
 		7AD96114219935FE008C93B2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AD96113219935FE008C93B2 /* AppDelegate.m */; };
-		7AD96117219935FE008C93B2 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AD96116219935FE008C93B2 /* ViewController.m */; };
 		7AD9611A219935FE008C93B2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7AD96118219935FE008C93B2 /* Main.storyboard */; };
 		7AD9611C21993600008C93B2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7AD9611B21993600008C93B2 /* Assets.xcassets */; };
 		7AD9611F21993600008C93B2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7AD9611D21993600008C93B2 /* LaunchScreen.storyboard */; };
 		7AD9612221993600008C93B2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AD9612121993600008C93B2 /* main.m */; };
+		7AD9612D219936AF008C93B2 /* DragonCurveViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AD9612C219936AF008C93B2 /* DragonCurveViewController.m */; };
+		7AD9613021993704008C93B2 /* DragonView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AD9612F21993704008C93B2 /* DragonView.m */; };
+		7AD9613421993723008C93B2 /* DragonCurve.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AD9613221993723008C93B2 /* DragonCurve.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		7AD9610F219935FE008C93B2 /* Assignment02.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Assignment02.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7AD96112219935FE008C93B2 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		7AD96113219935FE008C93B2 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		7AD96115219935FE008C93B2 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		7AD96116219935FE008C93B2 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		7AD96119219935FE008C93B2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		7AD9611B21993600008C93B2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7AD9611E21993600008C93B2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7AD9612021993600008C93B2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7AD9612121993600008C93B2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7AD9612B219936AF008C93B2 /* DragonCurveViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DragonCurveViewController.h; sourceTree = "<group>"; };
+		7AD9612C219936AF008C93B2 /* DragonCurveViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DragonCurveViewController.m; sourceTree = "<group>"; };
+		7AD9612E21993704008C93B2 /* DragonView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DragonView.h; sourceTree = "<group>"; };
+		7AD9612F21993704008C93B2 /* DragonView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DragonView.m; sourceTree = "<group>"; };
+		7AD9613121993723008C93B2 /* DragonCurve.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DragonCurve.h; sourceTree = "<group>"; };
+		7AD9613221993723008C93B2 /* DragonCurve.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DragonCurve.m; sourceTree = "<group>"; };
+		7AD9613321993723008C93B2 /* Direction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Direction.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,17 +65,46 @@
 		7AD96111219935FE008C93B2 /* Assignment02 */ = {
 			isa = PBXGroup;
 			children = (
+				7AD9612A2199368D008C93B2 /* Controller */,
+				7AD9612921993689008C93B2 /* View */,
+				7AD9612821993679008C93B2 /* Model */,
 				7AD96112219935FE008C93B2 /* AppDelegate.h */,
 				7AD96113219935FE008C93B2 /* AppDelegate.m */,
-				7AD96115219935FE008C93B2 /* ViewController.h */,
-				7AD96116219935FE008C93B2 /* ViewController.m */,
-				7AD96118219935FE008C93B2 /* Main.storyboard */,
 				7AD9611B21993600008C93B2 /* Assets.xcassets */,
 				7AD9611D21993600008C93B2 /* LaunchScreen.storyboard */,
 				7AD9612021993600008C93B2 /* Info.plist */,
 				7AD9612121993600008C93B2 /* main.m */,
 			);
 			path = Assignment02;
+			sourceTree = "<group>";
+		};
+		7AD9612821993679008C93B2 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				7AD9613321993723008C93B2 /* Direction.h */,
+				7AD9613121993723008C93B2 /* DragonCurve.h */,
+				7AD9613221993723008C93B2 /* DragonCurve.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		7AD9612921993689008C93B2 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				7AD96118219935FE008C93B2 /* Main.storyboard */,
+				7AD9612E21993704008C93B2 /* DragonView.h */,
+				7AD9612F21993704008C93B2 /* DragonView.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		7AD9612A2199368D008C93B2 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				7AD9612B219936AF008C93B2 /* DragonCurveViewController.h */,
+				7AD9612C219936AF008C93B2 /* DragonCurveViewController.m */,
+			);
+			path = Controller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -141,9 +177,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7AD96117219935FE008C93B2 /* ViewController.m in Sources */,
+				7AD9612D219936AF008C93B2 /* DragonCurveViewController.m in Sources */,
+				7AD9613021993704008C93B2 /* DragonView.m in Sources */,
 				7AD9612221993600008C93B2 /* main.m in Sources */,
 				7AD96114219935FE008C93B2 /* AppDelegate.m in Sources */,
+				7AD9613421993723008C93B2 /* DragonCurve.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
